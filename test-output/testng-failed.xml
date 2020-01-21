@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="Test_Scripts.Flipkart_logotTest">
+        <methods>
+          <include name="openApplctn"/>
+          <include name="closeApplctn"/>
+          <include name="test_login"/>
+        </methods>
+      </class> <!-- Test_Scripts.Flipkart_logotTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
